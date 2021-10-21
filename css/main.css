@@ -1,0 +1,276 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+	scroll-behavior: smooth;
+}
+.contenido {
+    min-height: 78vh;
+    max-height: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: #454951
+}
+/* MENÚ DE CATEGORÍAS */
+
+
+.conteiner-generos {
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 1%;
+    flex-direction: column;
+    display: flex;
+    width: 100%;
+    padding-bottom: 20px;
+}
+section {
+    padding: 10px;
+}
+
+/* CONTENEDOR DE LOS TRAGOS DE UN GÉNERO */
+.conteiner-trago {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30vh, 1fr));
+    grid-auto-rows: minmax(320px, auto);
+    grid-row-gap: 15px;
+    grid-column-gap: 15px;
+    padding-top: 15px;
+}
+
+article {
+    margin: 0 auto;
+    transition: transform 0.3s ease-in-out;
+}
+
+article:hover {
+    transform: scale(1.06);
+    border-radius: 9px;
+}
+
+.trago {
+    border-radius: 9px;
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-rows: 80% 20%;
+}
+.imagen {
+    text-align: center;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    max-width: 290px;
+}
+
+.foto {
+    width: 100%;
+    height: 100%;
+}
+
+.descripcion{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    flex-direction: column;
+
+}
+
+.descripcion > p{
+    margin-top: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.precio{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.precio, .valor > p{
+    margin-top: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+/* FIN ARTICULOS -*/
+
+
+
+/* BUSCADOR */
+
+.header-buscador {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    padding-top: 2%;
+}
+
+.container-buscador {
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    padding-bottom: 2%;
+    padding-top: 2%;
+    
+}
+
+.filtro-busqueda{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.tipo-busqueda{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+
+.buscar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    height: 40px;
+    border-radius: .6rem;
+    width: 90%;
+}
+
+.texto {
+    width: 100%;
+}
+/*Más oscuro el texto del placeholder*/
+::-webkit-input-placeholder {
+    font-style: italic;
+}
+
+.buscar-texto {
+    border: none;
+    background: none;
+    outline: none;
+    font-size: 19px;
+    font-weight: lighter;
+    float: left;
+    line-height: 60px;
+    width: 100%;
+    padding-left: 3%;
+}
+
+.boton {
+    width: 35px;
+    height: 35px;
+    text-decoration: none;
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+
+.texto-busqueda{
+    text-align: center;
+}
+
+.button-view{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 1%;
+}
+.ver-mas{
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 4px;
+    margin-top: 3px;
+}
+.ver-mas:hover{
+    font-weight: bold;
+}
+
+#error{
+    display:grid;
+    justify-content: center;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    padding: 1%;
+}
+
+#view-trago{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+
+#buscx, #conalcohol, #selcat{
+    font-weight: bold;
+    font-size: 15px;
+    padding: 5px;
+}
+
+#alcohol, #categoria{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+    column-gap: 10px;
+    row-gap: 10px;
+    padding-bottom: 15px;
+    width: 100%;
+    text-align: center;
+}
+
+.nombre-trago{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.nombre-trago> p{
+    font-weight: bold;
+    font-size: 18px;
+    font-weight: bold;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.nombre-trago> p{
+    font-weight: bold;
+    font-size: 18px;
+    font-weight: bold;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    padding: 5px;
+    width: 100%;
+    text-align: center;
+}
+
+#categoria> *{
+    padding: 5px;
+}
+#alcohol> *{
+    padding: 5px;
+}
+
+#error{
+    color: black;
+}

@@ -1,0 +1,153 @@
+.enlace {
+    color: #ffffff;
+    background-color: #55a49e;
+    border: solid 1px black;
+
+}
+.enlace:hover {
+    background-color: #cbe6e2;
+    color: black;
+}
+.cabecera {
+    background: linear-gradient(to bottom, #55a49e 0%, #55a49e 100%); 
+    color: #ffffff;
+}
+footer {
+    background: linear-gradient(to bottom, #55a49e 0%, #55a49e 100%); 
+    color: #ffffff;
+}
+
+
+.contenido {
+    background-color: #e5e5e5;
+}
+.trago {
+    background-color: #53514e;
+}
+
+.descripcion > p{
+    color:rgb(218, 218, 218);
+}
+.buscar {
+    background: #f1efef;
+    border: solid 1px gray;
+}
+::-webkit-input-placeholder {
+    color: rgb(24, 23, 23);
+}
+.boton {
+    color: #493c33;
+}
+.boton:hover {
+    color: #7f13d6;
+}
+.ver-mas{
+    background-color: #53514e;
+    color: rgb(218, 216, 216);
+}
+.ver-mas:hover{
+    color: rgb(37, 37, 37);
+    background-color: #55a49e;
+    font-weight: normal;
+}
+#view-trago{
+    border-top: 1px solid rgb(218, 218, 218);
+    border-bottom: 1px solid rgb(218, 218, 218);
+    background-color: #1b1b1b;
+    color: rgb(235, 235, 235);
+}
+#buscx, #conalcohol, #selcat{
+    color: black
+}
+.nombre-trago> p{
+    color:rgb(255, 255, 255);
+}
+
+
+
+
+/* TRAGO.CSS */
+
+
+.nombre-trago,.ingredientes-trago > p{
+    color:rgb(255, 255, 255);
+}
+.nombre-ingrediente > p{
+    color:rgb(255, 255, 255);
+}
+.nombre-trago,.titulo-alcohol,.cant-ingredientes,.preparacion, .compartir > p{
+    color:rgb(255, 255, 255);
+    border-top: 1px solid rgb(218, 218, 218);
+    border-bottom: 1px solid rgb(218, 218, 218);
+    background-color: #55a49e;
+}
+.alcohol,.nombre-ingredientes,.preparacion-desc > p{
+    color:rgb(255, 255, 255);
+}
+.conteiner-info {
+   background-color: #454951;
+}
+
+.agregar{
+    background-color: #55a49e;
+    color: rgb(255, 255, 255);
+    border: solid 1px rgb(0, 0, 0);
+}
+.agregar:hover{
+    background-color: rgb(65, 65, 65);
+    border: solid 1px rgb(65, 65, 65);
+}
+.formulario{
+    box-shadow: 0px 0px 7px #848484;
+}
+label{
+    color: white;
+}
+#botones>input:hover{
+    background-color: #55a49e;
+}
+.modal-container {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.text-modal:before {
+	background-color: rgba(0,0,0,0.75);
+}
+.text-modal>p{
+	color: #fff;
+}
+.button-acept{
+    background-color: rgb(131, 131, 131);
+    color: white;
+}
+.validaciones,#unidades{
+    color: rgb(253, 39, 39);
+}
+
+
+/* CARRITO.CSS */
+.trago-carrito {
+    background-color: #53514e;
+    border: solid 3px rgb(0, 87, 0);
+}
+
+.quitar{
+    background-color: rgb(211, 65, 65);
+    color: rgb(255, 255, 255);
+    border: solid 1px rgb(0, 0, 0);
+}
+.quitar:hover{
+    background-color: rgb(228, 0, 0);
+    border: solid 1px rgb(65, 65, 65);
+    color: rgb(0, 0, 0);
+}
+.total{
+    background-color: #53514e;
+    color: rgb(235, 235, 235);
+}
+#confirmar{
+    background-color: #55a49e;
+}
+
+.titulo-contacto > p{
+    background-color: #55a49e;
+}
